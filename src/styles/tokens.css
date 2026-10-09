@@ -1,0 +1,72 @@
+/* Shared design decisions. Components use semantic tokens in both themes. */
+:root {
+  color-scheme: dark;
+  --background: #111214;
+  --foreground: #f1f2f4;
+  --card: #191b1f;
+  --card-foreground: #f1f2f4;
+  --popover: #191b1f;
+  --popover-foreground: #f1f2f4;
+  --primary: #c8354e;
+  --primary-foreground: #ffffff;
+  --secondary: #24272c;
+  --secondary-foreground: #f1f2f4;
+  --muted: #212328;
+  --muted-foreground: #b0b5c0;
+  --text-muted: #b0b5c0;
+  --accent: #2b2529;
+  --accent-foreground: #f1f2f4;
+  --destructive: #ff8293;
+  --border: #36393f;
+  --border-subtle: #36393f;
+  --input: #444850;
+  --ring: #e45a70;
+  --radius: 0.625rem;
+  --radius-sm: 0.375rem;
+  --radius-md: 0.625rem;
+  --radius-lg: 0.875rem;
+  --shadow-panel: 0 14px 36px rgb(0 0 0 / 18%);
+  --brand-soft: #362329;
+  --brand-text: #ff9cac;
+  --success-text: #70d6a1;
+  --warning-text: #f1c775;
+  --font-caption: 0.8125rem;
+  --font-body: 1rem;
+  --font-label: 0.875rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+}
+:root.flowtask-light,
+.app-shell.light,
+.auth-light {
+  color-scheme: light;
+  --background: #f5f5f3;
+  --foreground: #22252b;
+  --card: #ffffff;
+  --card-foreground: #22252b;
+  --popover: #ffffff;
+  --popover-foreground: #22252b;
+  --primary: #b92340;
+  --primary-foreground: #ffffff;
+  --secondary: #eeefec;
+  --secondary-foreground: #22252b;
+  --muted: #f0f1ee;
+  --muted-foreground: #59616d;
+  --text-muted: #59616d;
+  --accent: #fbe9ed;
+  --accent-foreground: #8f1931;
+  --destructive: #b1203b;
+  --border: #d9dcd7;
+  --border-subtle: #d9dcd7;
+  --input: #bfc5bd;
+  --ring: #b92340;
+  --brand-soft: #fbe9ed;
+  --brand-text: #a51d38;
+  --success-text: #187447;
+  --warning-text: #875d09;
+  --shadow-panel: 0 14px 36px rgb(31 35 40 / 8%);
+}
