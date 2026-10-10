@@ -10,7 +10,7 @@ ficam salvos no `localStorage`, sem API ou banco de dados nesta versão.
 
 ## Demonstração
 
-[Acessar o FlowTask](https://flowtask-caua.rodolfinhom5.chatgpt.site)
+[Acessar o FlowTask](https://flowstack-ivory.vercel.app/)
 
 Na tela de login, é possível escolher uma conta demonstrativa e conhecer as
 permissões de cada perfil.
